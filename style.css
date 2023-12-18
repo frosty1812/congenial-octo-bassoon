@@ -1,0 +1,323 @@
+
+body{
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%), url(./Group\ 18.svg) left -17.685vh no-repeat;
+    min-height: 100%;
+    background-color: #0B1D26;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+#big-headline{
+    font-family: "Chronicle Display", serif; 
+    font-size: 4.583vw; 
+    font-weight: 375; 
+    max-width: 49.479vw; 
+    color: white;
+}
+
+#account{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    font-size: 0.938vw;
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding-right: 2.083vw;
+    color: white;
+}
+
+ul{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    display: inline-block;
+    font-family: "Chronicle Display", serif; 
+    font-size: 1.667vw;
+    color: white;
+}
+
+#header>div{
+    min-height: 2.315vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 91.667vw;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.926vh;
+}
+
+#account-login{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 0.885vw;
+    color: white;
+    padding-left: 0.741vh;
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    color: white;
+    font-family: 'Gilroy-Medium';
+    min-height: 16.019vh;
+    min-width: 1.250vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#big-text{
+    margin-top: 18.333vh;
+    min-height: 28.704vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#big-text>div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 91.667vw;
+}
+
+#big-content{
+    max-width: 49.479vw;
+    min-height: 32.258vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.slider-num{
+    padding-bottom: 3.704vh;
+    text-align: right;
+}
+
+#main-content{
+    z-index: 3;
+    margin-top: 78.056vh;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%) left -10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 237.037vh;
+    justify-content: space-between;
+    gap: 18.519vh;
+}
+
+.content{
+    max-width: 32.917vw;
+    min-height: 40.648vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 29.479vw;
+    height: 70.556vh;
+}
+
+.content-wrapper{
+    display: flex;
+    align-items: center;
+    min-width: 76.146vw;
+    justify-content: space-around;
+}
+
+#footer{
+    margin-top: 18.519vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text{
+    font-family: 'Gilroy-Regular';
+    flex-direction: column;
+    gap: 1.481vh;
+}
+
+#footer>div{
+    display: flex;
+    min-width: 76.146vw;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 25.926vh;
+    margin-bottom: 11.111vh;
+}
+
+#footer>div>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: space-between;
+}
+
+.footer-text-heading{
+    font-family: 'Gilroy-Bold';
+    color:#FBD784; 
+    font-size: 1.250vw;
+    margin-bottom: 2vh;
+}
+
+#footer-slogan{
+    color: #ffffff; 
+    font-family: 'Gilroy-Medium'; 
+    font-size: 0.938vw; 
+    margin-top: 2.222vh; 
+    max-width: 15.781vw;
+}
+
+.content-text{
+    font-size:0.938vw; 
+    font-family: 'Gilroy-Medium'; 
+    color: #ffffff;
+}
+
+#copyright{
+    color: #ffffff;
+    font-family: 'Gilroy-Regular'; 
+    font-size: 0.938vw;
+}
+
+.question{
+    font-family: "Chronicle Display", serif; 
+    font-size: 3.333vw; 
+    font-weight: 375; 
+    max-width: 28.906vw; 
+    color: white;
+}
+
+#links{
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    #main-content{
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li{
+        font-size: 1.563vw;
+    }
+
+    .footer-text-heading{
+        font-size: 2.344vw;
+    }
+
+    #footer-slogan{
+        font-size: 1.563vw;
+    }
+
+    .content-text{
+        font-size: 1.563vw;
+    }
+
+    #account-login{
+        font-size: 1.400vw;
+    }
+
+    img{
+        height: 65vh;
+    }
+
+    #copyright{
+        font-size: 1.563vw;
+    }
+
+    #links{
+        gap: 3vw;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    li{
+        font-size: 2.824vw;
+    }
+
+    #logo{
+        font-size: 5.647vw;
+    }
+
+    #account-login{
+        font-size: 2.824vw;
+    }
+
+    #big-headline{
+        font-size: 9.412vw;
+    }
+
+    #big-content{
+        gap: 5vh;
+    }
+
+    .question{
+        font-size: 7.529vw ;
+        max-width: none;
+    }
+
+    .content-text{
+        font-size: 2.824vw;
+    }
+
+    .content{
+        max-width: 50vw
+    }
+
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .content-wrapper{
+        flex-direction: column-reverse;
+        gap: 5vh;
+    }
+
+    #second-content{
+        flex-direction: column;
+    }
+
+    #footer-slogan{
+        font-size: 2.824vw;
+        max-width: 20vw;
+    }
+
+    #links{
+        gap: 1.5vw;
+    }
+
+    #copyright{
+        max-width: 60%;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .content-text{
+        font-size: 3.191vw;
+    }
+
+    .footer-text-heading{
+        font-size: 3.723vw;
+    }
+
+    #copyright{
+        max-width: 60%;
+        font-size: 2vw;
+    }
+}
