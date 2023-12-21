@@ -210,6 +210,10 @@ img{
     #main-content{
         gap: 0;
     }
+
+    .content-text{
+        font-size: 1.563vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
