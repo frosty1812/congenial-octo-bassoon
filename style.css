@@ -214,6 +214,10 @@ img{
     .content-text{
         font-size: 1.563vw;
     }
+
+    li{
+        font-size: 1.563vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
